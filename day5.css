@@ -1,0 +1,182 @@
+body
+{
+    background-image: url(./images/bg.jpg);
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu
+{
+    display: flex;
+    padding: 20px;
+}
+a:hover
+{
+    color: rgb(255, 94, 0);
+}
+a
+{
+    color: white;
+    font-size: 15px;
+    padding:40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul
+{
+    list-style-type:none;
+}
+li{
+    display: inline;
+}
+.search
+{
+  padding: 2px;
+}
+.search input
+{
+    padding: 10px;
+}
+#form1
+{
+    background: white;
+    width: 150px;
+    height: 37px;
+    display: flex;
+}
+#form1 input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+#form1 button
+{
+    background: rgb(255, 94, 0);
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.container
+{
+    display: flex;
+}
+.contents
+{
+    margin: 30px;
+}
+#heading p
+{
+    color: rgb(255, 94, 0);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    width: 400px;
+    filter: drop-shadow(3px 3px 2px black);
+}
+#Description
+{
+    width: 600px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    word-spacing: 1px;
+    line-height: 30px;
+    filter: drop-shadow(3px 3px 2px black);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn
+{
+    background: rgb(255, 94, 0);
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+.login img
+{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 11px;
+}
+.login
+{
+    background-color: black;
+    height: 400px;
+    width: 280px;
+    border-radius: 15px;
+}
+#mail
+{
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid rgb(255, 94, 0);
+    font-size: 18px;
+    padding: 10px 0;
+    background: transparent;
+    margin-top: 30px;
+    margin-left: 27px;
+    color: white;
+}
+#pass
+{
+    color: white;
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid rgb(255, 94, 0);
+    font-size: 18px;
+    padding: 10px 0;
+    background: transparent;
+    margin-top: 30px;
+    margin-left: 27px;
+}
+.login
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    display: flex;
+    float: right;justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 160px;
+    margin-top: 150px;
+    opacity: 0.9;
+    
+}
+.login #login_btn
+{
+    width: 80%;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 14px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    font-size: 15px;
+    margin-left: 27px;
+}
+#sign_up_here
+{
+    color: white;
+    text-align: center;
+}
+#login_with
+{
+    color: white;
+    text-align: center;
+}
+#sup
+{
+    color: rgb(255, 94, 0);
+}
